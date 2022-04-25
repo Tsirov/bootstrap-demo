@@ -1,0 +1,31 @@
+.activity-wrapper {
+    background-color: #2c2e31;
+}
+
+.activity-h6 {
+    background-color: #1E2124;
+    border-radius: 20px;
+
+}
+
+.activity-button {
+    border-radius: 25px;
+    border-color: #7F828D;
+    color: #545558;
+    background-color: #16191D;
+}
+
+.activity-wrapper-img {
+    height: 80px;
+    width: 80px;
+}
+
+.activity-wrapper-h3 {
+    color: #7F828D
+}
+
+.etherscan-button {
+    border-radius: 2px;
+    border-color: #757b84;
+    background-color: #434754;
+}

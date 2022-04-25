@@ -1,0 +1,98 @@
+body {
+    background-color: #16191D;
+    padding-bottom: 100px;
+}
+
+.profile-title {
+    background: linear-gradient(#85E8DA 55%, #6DF1D0 75%);
+}
+
+.ethereum-address {
+    background-color: #7CA3A0;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.icons {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 60px;
+    top: -25px;
+}
+
+.p-size {
+    font-size: 12px;
+}
+
+.button-width {
+    width: 100%;
+}
+
+.email-verification {
+    background: linear-gradient(to right, #C5CFF3 5%, #B0D6EA 35%, #85E8DA 55%, #6DF1D0 75%);
+}
+
+.email-name {
+    background-color: transparent;
+}
+
+.file-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    transition: all .3s ease;
+}
+
+.file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.file-input:hover {
+    z-index: 3;
+}
+
+
+.camera-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 50px;
+    top: 25px;
+    color: #1C9F7C
+}
+
+.upload-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #292B2E;
+    z-index: 2;
+}
+
+.upload-button:hover {
+    z-index: -1;
+}
+
+.upload-button-text {
+    position: absolute;
+    width: 120px;
+    left: 140px;
+    top: 25px;
+}
